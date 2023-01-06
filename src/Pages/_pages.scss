@@ -1,0 +1,46 @@
+.title{
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.hover:hover{
+color: #f1515e !important;
+}
+.login{
+     background:linear-gradient(90deg, #f1515e,#1dbde6,) ;
+    }
+    .login:hover{
+        background:linear-gradient(90deg ,#1dbde6,#f1515e) ;
+        box-shadow: 0 0 10px black;
+    transition: 0.5s;
+}
+.input-fields{
+    background:transparent;
+    border: none;
+}
+.input-fields:focus{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+
+}
+
+.spinner{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+ .carousel-item{
+    img{
+        height: 50vh;
+    }
+ }   
+    .login{
+        width: 100% !important;
+
+    }
+}
